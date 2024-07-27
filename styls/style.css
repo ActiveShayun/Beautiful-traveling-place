@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* font family */
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* css variale */
+:root{
+    --title-color: black;
+    --title-size: 3rem;
+    --title-weight: 800;
+    --discription-color: rgba(19, 19, 24, 0.7);
+    --btn-color:  rgb(255, 84, 0);
+    --linear-gradient:  linear-gradient(0deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
+    --p-font-size: 1rem;
+    --p-font-weight: 400:
+
+}
+
+.BasicBtn{
+    background-color: var(--btn-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 7px 15px;
+    border: none;
+}
+
+/* header styleing */
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-title{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-left: 0.7rem;
+}
+
+.sub-title{
+    color: var(--btn-color);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    list-style-type: none;
+    margin-right: 1.7rem;
+}
+ul li .active{
+     background-color: var(--btn-color);
+     padding: 0.5rem 0.8rem;
+}
+
+ul li .active:hover{
+       color: white;
+}
+
+ul li a{
+      text-decoration: none;
+      color: #424247;
+      font-size: 18px;
+      font-weight: 400;
+      transition: 0.3s;
+}
+
+ul li a:hover{
+     color: var(--btn-color);
+}
+
+.baner-section{
+    max-width: 1200px;
+    height: 400px;
+    margin: 1.5rem auto;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 333;
+}
+
+.dark{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.baner-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+.baner-discription{
+    color: white;
+    font-weight: var(--p-font-weight);
+    font-size: var(--p-font-size);
+}
+
+/* main container styls  */
+.main-container{
+    max-width: 1290px;
+    margin: 4rem auto 0;
+
+}
+
+.first-section{
+     max-width: 1200px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 6rem;
+     align-content: center;
+}
+
+.first-child img{
+   width: 100%;
+   filter: brightness(70%);
+}
+
+.first-section-title{
+    font-size: 2.7rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.first-section-discription{
+    font-size: var(--p-font-size);
+    color: var(--title-color);
+    font-weight: var(--p-font-weight);
+    margin-bottom: 2rem;
+}
+
+/* destimation sectiom start  */
+
+.destinationArea{
+    max-width: 1200px;
+    margin: 4rem auto 0;
+}
+
+.decTitle{
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.decDis{
+    font-size: var(--p-font-size);
+    color: var(--discription-color);
+    font-weight: var(--p-font-weight);
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.destinationContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.childDesti {
+    height: 250px;
+    position: relative;
+}
+
+#CountryName{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 22;
+    letter-spacing: 2px;
+}
+.childDesti img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+ .childDesti:nth-child(1){
+   grid-column: 1/3;
+}
+ 
+ .childDesti:nth-child(2){
+   grid-column: 3/5;
+}
+ 
+ .childDesti:nth-child(4){
+   grid-column: 2/4;
+}
+
+.grit2{
+    display: grid;
+    grid-template-columns: 430px auto;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+
+ 
+
+
+
+
