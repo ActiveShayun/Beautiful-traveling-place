@@ -1,0 +1,176 @@
+/* responsive for mobile */
+
+@media screen and (min-width: 400px) and (max-width: 576px) {
+    
+    
+/* header styleing */
+    .header{
+        width:96% ;
+        padding: 0 1.2rem;
+    }
+
+    .logo-title{
+        font-size: 1.5rem;
+    }
+
+    .baner-section{
+        padding:  0 1rem;
+        gap: 0;
+        height: 510px;
+    }
+
+    .baner-title{
+        font-size: 2rem;
+       margin-bottom: 0.3rem;
+    }
+
+    .textChild{
+        width: 100%;
+    }
+
+    .baner-discription{
+        font-size: 1.2rem;
+        margin-bottom: 1.7rem;
+       
+    }
+
+    .select-option{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 275px;
+    }
+
+    .select-option input, select{
+        width: 95%;
+        margin: 0.7rem 0;
+        padding: 0.8rem;
+    }
+
+    ul{
+       display: none;
+    }
+
+    .select-option .BasicBtn{
+        width: 95%;
+        padding: 0.8rem;
+        margin-top: 0.5rem;
+    }
+     
+    
+/* main container styls  */
+
+    .main-container{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0 1rem;
+        border: 1px solid blue;
+    }
+
+    .first-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+   }
+
+ /* destimation sectiom start  */
+
+   .destinationArea{
+          width: 100% ;
+          margin: 2.5rem auto 0;
+  }
+
+    .decTitle{
+           font-size: 1.8rem;
+           margin-bottom: 1rem;
+    }
+
+    .destinationContainer{
+         display: flex;
+         flex-direction: column;
+         margin: 0 auto;
+    }
+
+     .grit2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* why choose section start  */
+
+    .textContainer{
+        width: 100%;
+        height: auto;
+    }
+       
+    .TitleTextcon{
+        width: 100%;
+    }
+     
+    .titleText{
+        font-size: 2rem;
+    }
+        
+    .twotextcon{
+        flex-direction: column;
+    }
+
+    .childCon:nth-child(1),
+    .childCon:nth-child(2),
+    .lastcontainers {
+        width: 100%;
+        height: 250px;
+    }
+    
+     /* discount section start  */
+      
+     .textDiscon{
+        width: 100%;
+     }
+
+     .disCountTitle{
+        font-size: 2rem;
+     }
+
+      .childConainer:nth-child(1),
+      .childConainer:nth-child(2),
+      .childConainer:nth-child(3){
+           height: 520px;
+      }
+
+     .babycon{
+        width: 90%;
+         position: absolute;
+         top: 13rem;
+         left: 1.2rem;
+     }
+
+     .childConainer:nth-child(2) .babycon{
+        top: 13rem;
+        left: 1.2rem;
+      }
+
+      .text-icon{
+        margin-right: 0.7rem;
+        font-size: 0.8rem;
+     }
+
+     .subTitle{
+        font-size: 2rem;
+     }
+    
+     /* A Simple Perfect section start */
+
+     .simpleContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     
+     }
+
+     .videoTag{
+        width: 100%;
+    }
+
+}
