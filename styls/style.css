@@ -38,18 +38,23 @@ body{
 .header{
     max-width: 1200px;
     margin: 0 auto;
-   
 }
 
 .navbar{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin: 2rem 0;
 }
-
+    
+ ul{
+    display: flex;
+    align-items: center;
+}
+   
 .logo-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo-title{
@@ -62,15 +67,11 @@ body{
     color: var(--btn-color);
 }
 
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 ul li{
     list-style-type: none;
-    margin-right: 1.7rem;
+    display: inline-block;
+    margin: 0 0.7rem;
 }
 ul li .active{
      background-color: var(--btn-color);
@@ -96,7 +97,7 @@ ul li a:hover{
 .baner-section{
     max-width: 1200px;
     height: 400px;
-    margin: 1.5rem auto;
+    margin: 0rem auto 1.5rem;
     box-sizing: 10px;
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png') ;
     background-size: cover;
@@ -110,7 +111,6 @@ ul li a:hover{
     justify-content: center;
     z-index: 333;
     border-radius: 10px;
-   
 }
 
 .dark{
@@ -511,11 +511,14 @@ ul li a:hover{
 }
 
 .childNewslatter:nth-child(1){
-    padding: 1.4rem;
+    border: 1px solid var(--btn-color);
+    padding: 2rem ;
+    border-radius: 10px;
+    height: 350px;
 }
 .childNewslatter:nth-child(2){
     width: 700px;
-    height: 300px;
+    height: 350px;
     background-image: url('../Images/Rectangle\ 8\ \(1\).png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -578,4 +581,68 @@ ul li a:hover{
     border: none;
     border-radius: 10px;
     letter-spacing: 3px;
+}
+
+/* footer section start */
+
+#footerContainer{
+    max-width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.footextcon{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.footerTitle{
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+}
+
+.titleStyle{
+    color: var(--btn-color);
+}
+
+.logocontainer {
+    width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logocontainer p{
+    color: var(--discription-color);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+ #copyWrite{
+    color: var(--discription-color);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
+    line-height: 1.5rem;
+}
+
+.childLogo i{
+    margin: 0rem 1rem ;
+    font-size: 1.6rem;
+}
+
+.logocontainer hr{
+    margin-bottom: 2rem;
 }
