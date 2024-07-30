@@ -36,6 +36,11 @@ body{
 }
 
 /* header styleing */
+
+.nobileMenu i{
+    font-size: 2rem;
+    display: none;
+}
 .header{
     max-width: 1200px;
     margin: 0 auto;

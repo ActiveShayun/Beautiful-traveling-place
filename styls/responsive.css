@@ -5,6 +5,16 @@
     
 /* header styleing */
 
+.nobileMenu i{
+    font-size: 2rem;
+    display: block;
+}
+
+.navbar{
+  
+    padding: 0rem 0.6rem;
+}
+
 #CountryName{
     letter-spacing: 1px;
 }
@@ -194,7 +204,6 @@
     .childNewslatter:nth-child(2){
         width: 100%;
     }
-
 
     .childNewslatter:nth-child(1){
         height: 370px;
