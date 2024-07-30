@@ -4,6 +4,10 @@
     
     
 /* header styleing */
+
+#CountryName{
+    letter-spacing: 1px;
+}
     .header{
         width:96% ;
         padding: 0 1.2rem;
@@ -64,7 +68,6 @@
         width: 96%;
         margin: 0 auto;
         padding: 0 1rem;
-        border: 1px solid blue;
     }
 
     .first-section{
@@ -114,14 +117,21 @@
         
     .twotextcon{
         flex-direction: column;
+        width: 100%;
     }
 
     .childCon:nth-child(1),
-    .childCon:nth-child(2),
+    .childCon:nth-child(2) {
+                width: 100%;
+                height: 270px;
+    }
+
     .lastcontainers {
         width: 100%;
-        height: 250px;
-    }
+        height: 248px;
+    }                
+
+    
     
      /* discount section start  */
       
@@ -171,6 +181,39 @@
 
      .videoTag{
         width: 100%;
+    }
+ /* news leter section start  */
+
+    .newsLatterContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .childNewslatter:nth-child(2){
+        width: 100%;
+    }
+
+
+    .childNewslatter:nth-child(1){
+        height: 370px;
+    }
+/* footer section start  */
+    #footerContainer{
+        width: 96%;;
+    }
+
+    .logocontainer{
+        width: 80%;
+    }
+
+    .footextcon{
+        margin-bottom: 1rem;
+    }
+
+    .logocontainer p{
+       margin-bottom: 3rem;
     }
 
 }
